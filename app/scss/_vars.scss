@@ -1,0 +1,16 @@
+$title: #363838;
+$defolt: #5a5a5a;
+
+
+
+%title-font {  /* Смотреть на сайте Sass вложенности */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+@function max($numbers...) {
+    @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+    @return m#{i}n(#{$numbers});
+} 
